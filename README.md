@@ -4,7 +4,7 @@ A lightweight Python script that uses reverse engineered APIs to fetch full ETF 
 
 ---
 
-## 🔍 Features
+##  Features
 
 - Retrieves ETF summary:
   - Last price
@@ -21,7 +21,7 @@ A lightweight Python script that uses reverse engineered APIs to fetch full ETF 
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.7+
 - `requests`
