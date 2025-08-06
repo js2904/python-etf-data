@@ -1,0 +1,24 @@
+# ETL Pipeline Configuration
+data_lake_path: "data_lake"
+etf_symbols:
+  - "VTI"    # Vanguard Total Stock Market
+  - "VOO"    # Vanguard S&P 500
+  - "QQQ"    # Invesco QQQ Trust
+  - "SPY"    # SPDR S&P 500 ETF
+  - "VEA"    # Vanguard FTSE Developed Markets
+  - "VWO"    # Vanguard FTSE Emerging Markets
+  - "BND"    # Vanguard Total Bond Market
+  - "GLD"    # SPDR Gold Shares
+
+max_holdings: 100
+max_workers: 5
+schedule_interval: "daily"
+
+# Data retention settings
+raw_data_retention_days: 30
+processed_data_retention_days: 90
+curated_data_retention_days: 365
+
+# Error handling
+max_retries: 3
+retry_delay_seconds: 5 
