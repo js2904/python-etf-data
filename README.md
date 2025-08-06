@@ -2,9 +2,11 @@
 
 A professional-grade ETL pipeline for extracting, analyzing, and serving ETF holdings data. Built for traders who need real-time access to ETF composition and portfolio analytics.
 
+**GitHub Repository**: https://github.com/js2904/python-etf-data
+
 ## What This Does
 
-This system extracts complete ETF holdings data, processes it into a structured format, and provides it via a REST API. It gives you:
+This system extracts complete ETF holdings data from Schwab's research portal, processes it into a structured format, and provides it via a REST API. It gives you:
 
 - **Complete ETF Holdings**: Every stock, bond, or asset held by the ETF
 - **Weight Analysis**: Percentage allocations and market values
@@ -68,6 +70,10 @@ REST API provides:
 
 ### Quick Start
 ```bash
+# Clone the repository
+git clone https://github.com/js2904/python-etf-data.git
+cd python-etf-data
+
 # Install dependencies
 pip install -r requirements.txt
 
